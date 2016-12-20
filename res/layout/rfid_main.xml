@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_rfid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_CardNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CardNo"
+        android:textSize="30dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_CardInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CardInfo"
+        android:textSize="30dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_BlockTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockTest"
+        android:textSize="30dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_BlockTest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockTest"
+        android:textSize="30dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_BlockTest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BlockTest"
+        android:textSize="30dip" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/editText_Money"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:inputType="number|numberDecimal"
+        android:maxLength="9"
+        android:text="@string/Num_100"
+        android:textSize="30dip" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_Recharge"
+            android:layout_width="130dip"
+            android:layout_height="90dip"
+            android:layout_weight="1"
+            android:text="@string/AddMoney" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_Decharge"
+            android:layout_width="130dip"
+            android:layout_height="90dip"
+            android:layout_weight="1"
+            android:text="@string/DecMoney" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_InitCard"
+            android:layout_width="130dip"
+            android:layout_height="90dip"
+            android:layout_weight="1"
+            android:text="@string/InitCard" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_Exit"
+            android:layout_width="130dip"
+            android:layout_height="90dip"
+            android:layout_weight="1"
+            android:text="@string/Exit" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

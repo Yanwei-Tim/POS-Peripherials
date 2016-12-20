@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="SendMsg">發送顯示信息</string>
+    <string name="clear">清屏</string>
+    <string name="senddot">發送圖片</string>
+
+</resources>

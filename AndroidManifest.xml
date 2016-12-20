@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.AclasDemos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/AclasDemo" >
+        <activity
+            android:name=".AclasDemosActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="AclasPrinterActivity"
+            android:label="AclasPrinterActivity" >
+        </activity>
+        <activity
+            android:name="Aclas_Lcd0Activity"
+            android:label="AclasPrinterActivity" >
+        </activity>
+        <activity
+            android:name="AclasRfidActivity"
+            android:label="AclasRfidActivity" >
+        </activity>
+        <activity
+            android:name="AclasMagcardActivity"
+            android:label="AclasMagcardActivity" >
+        </activity>
+        <activity
+            android:name="AclasHdqActivity"
+            android:label="AclasHdqActivity" >
+        </activity>
+        <activity
+            android:name="AclasSmartCardActivity"
+            android:label="AclasSmartCardActivity" >
+        </activity>
+        <activity
+            android:name="AclasDrawerAcitivity"
+            android:label="AclasDrawerAcitivity" >
+        </activity>
+        <activity
+            android:name="AclasKM3PrinterAcitivity"
+            android:label="AclasKM3PrinterAcitivity" >
+        </activity>
+        <activity
+            android:name="AclasUSBRFIDAcitivity"
+            android:label="AclasUSBRFIDAcitivity" >
+        </activity>
+        <activity
+            android:name="AclasSerialAcitivity"
+            android:label="AclasSerialAcitivity" >
+        </activity>
+        <activity
+            android:name="AclasScaleActivity"
+            android:label="AclasScaleActivity" >
+        </activity>
+    </application>
+
+</manifest>

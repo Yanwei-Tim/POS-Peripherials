@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_ATR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ATR"
+        android:textSize="30dip" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup_cardselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_card1"
+                android:layout_width="130dip"
+                android:layout_height="90dip"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked1"
+                android:text="Select Card1" />
+
+            <RadioButton
+                android:id="@+id/radio_card2"
+                android:layout_width="130dip"
+                android:layout_height="90dip"
+                android:onClick="onRadioButtonClicked2"
+                android:text="Select Card2" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_Exit"
+            android:layout_width="130dip"
+            android:layout_height="90dip"
+            android:text="@string/Exit" >
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:text="Info:"
+        android:textSize="20dip" />
+
+</LinearLayout>

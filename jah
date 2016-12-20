@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ "x$1" = "x" ];then
+	echo "Miss the package path"
+	exit 
+
+fi
+javah -classpath bin/classes -d jni $1

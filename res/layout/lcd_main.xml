@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit_text_out"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:lines="2"
+        android:maxLength="18"
+        android:maxLines="2" >
+
+        <requestFocus>
+        </requestFocus>
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:layout_weight="1"
+            android:text="@string/SendMsg" >
+        </Button>
+
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:layout_weight="1"
+            android:text="@string/Exit" >
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:text="@string/clear" />
+
+    <Button
+        android:id="@+id/button_senddot"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:text="@string/senddot" />
+
+    <ImageView
+        android:id="@+id/imageView_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+</LinearLayout>

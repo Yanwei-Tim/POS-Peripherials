@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="CardNo">CardNo:</string>
+    <string name="InitCard">InitCard</string>
+    <string name="AddMoney">Add Money</string>
+    <string name="DecMoney">Dec Money</string>
+    <string name="CardInfo">CardInfo:</string>
+    <string name="Exit">Exit</string>
+    <string name="Num_100">100</string>
+    <string name="BlockTest">Block Test: </string>
+
+</resources>

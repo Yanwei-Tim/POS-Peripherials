@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Aclas Demo</string>
+    <string name="app_name">Aclas Demo</string>
+    <string name="printer_tab">Printer</string>
+    <string name="rfid_tab">Rfid</string>
+    <string name="smartcard_tab">SmartCard</string>
+    <string name="lcd_tab">Lcd</string>
+    <string name="magcard_tab">Magcard</string>
+    <string name="hdq_tab">Hdq</string>
+    <string name="serial_tab">SerialPort</string>
+    <string name="serial_show">Please check weather 4 PIN RS232 send "Serial Test" Message</string>
+    <string name="serialerr">open serial port err</string>
+    <string name="serialread">read buffer:</string>
+    <string name="DrawerOpen">Open Drawer:</string>
+    <string name="KM3Demo">KM3 Print:</string>
+    <string name="USBRFID">USBRFID</string>
+    <string name="usbrfid_show">Send The Read Card CMD</string>
+    <string name="usbrfiderr">open usb rfid  port err</string>
+    <string name="usbrfidok">open usb rfid  port ok</string>
+    <string name="usbrfidread">Read Card NO.:</string>
+    <string name="AclasDemo">Aclas Demo</string>
+
+    <string-array name="SerialNum">
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+    </string-array>
+    <string-array name="SerialBoudRate">
+        <item>B9600</item>
+        <item>B19200</item>
+        <item>B38400</item>
+        <item>B57600</item>
+        <item>B115200</item>
+    </string-array>
+
+</resources>

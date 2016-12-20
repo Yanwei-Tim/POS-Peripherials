@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Aclas Demo</string>
+    <string name="app_name">頂尖硬件測試Demo</string>
+    <string name="printer_tab">打印機</string>
+    <string name="rfid_tab">RFID卡</string>
+    <string name="smartcard_tab">智能卡</string>
+    <string name="lcd_tab">客顯</string>
+    <string name="magcard_tab">磁條卡</string>
+    <string name="hdq_tab">I-button</string>
+    <string name="serial_tab">串口</string>
+    <string name="serial_show">請確認4PIN的串口是否輸出"Serial Test"信息</string>
+    <string name="serialerr">打開串口失敗</string>
+    <string name="serialread">讀取到的字符</string>
+    <string name="AclasDemo">頂尖硬件測試Demo</string>
+
+</resources>

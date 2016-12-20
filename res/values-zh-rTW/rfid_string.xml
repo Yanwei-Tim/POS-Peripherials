@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="CardNo">卡號:</string>
+    <string name="InitCard">初始化卡</string>
+    <string name="AddMoney">充值</string>
+    <string name="DecMoney">扣款</string>
+    <string name="CardInfo">卡信息:</string>
+    <string name="Exit">退出</string>
+    <string name="Num_100">100</string>
+    <string name="BlockTest">Block Test: </string>
+
+</resources>

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.938750058/C_INCLUDE_PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.938750058/C_INCLUDE_PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.938750058/C_INCLUDE_PATH/value=/opt/adt-bundle-linux/android-ndk-r8e/platforms/android-9/arch-arm/usr/include/
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.938750058/append=true
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.938750058/appendContributed=true

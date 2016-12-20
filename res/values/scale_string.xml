@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="scale">scale</string>
+    <string name="scale_weight">weight</string>
+    <string name="scale_tare">Tare</string>
+    <string name="scale_zero">Zero</string>
+
+</resources>

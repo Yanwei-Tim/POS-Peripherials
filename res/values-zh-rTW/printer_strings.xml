@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="changemode">模式切換</string>
+    <string name="dotwidth">點陣寬度: </string>
+    <string name="feed">進紙</string>
+    <string name="stop">暫停</string>
+    <string name="exit">退出</string>
+    <string name="print">打印測試</string>
+    <string name="mode">模式: </string>
+    <string name="getdotwidth">讀取點陣寬度</string>
+    <string name="getpaperstatus">獲取紙張狀態</string>
+    <string name="paperstatus">紙張狀態: </string>
+    <string name="nopaper">缺纸</string>
+    <string name="havepaper">有紙</string>
+    <string name="epsonmode">愛普生模式</string>
+    <string name="dotmode">點陣模式</string>
+    <string name="contrast">打印濃度:</string>
+    <string name="Continue">繼續</string>
+
+    <string-array name="DotModePic">
+        <item>豎直線</item>
+        <item>水平線</item>
+        <item>三角形</item>
+        <item>圖片</item>
+        <item>收據</item>
+        <item>圖片1</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="changemode">ChangeMode</string>
+    <string name="dotwidth">dot width: </string>
+    <string name="feed">Feed</string>
+    <string name="stop">Pause</string>
+    <string name="exit">Exit</string>
+    <string name="print">Print</string>
+    <string name="mode">Mode: </string>
+    <string name="getdotwidth">GetDotWidth</string>
+    <string name="getpaperstatus">Get paper status</string>
+    <string name="paperstatus">Paper Status: </string>
+    <string name="nopaper">paper not exist</string>
+    <string name="havepaper">paper exist</string>
+    <string name="epsonmode">epson mode</string>
+    <string name="dotmode">dot mode</string>
+    <string name="contrast">Printer Contrast:</string>
+    <string name="Continue">Continue</string>
+
+    <string-array name="DotModePic">
+        <item>verital</item>
+        <item>horizontal</item>
+        <item>triangle</item>
+        <item>picture</item>
+        <item>receipt</item>
+        <item>picture1</item>
+    </string-array>
+
+</resources>
